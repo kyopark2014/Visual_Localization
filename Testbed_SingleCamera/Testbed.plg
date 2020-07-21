@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Testbed - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Testbed.pdb" /debug /machine:I386 /out:"Debug/Testbed.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\Testbed.obj .\Debug\TestbedDlg.obj .\Debug\Testbed.res .\Debug\CxImage.lib "
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: Debug/Testbed.exe not found or not built by the last incremental link; performing full link
+   Creating library Debug/Testbed.lib and object Debug/Testbed.exp
+
+
+
+<h3>Results</h3>
+Testbed.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,13 @@
+C(136,151),C2(205 151)
+E(-1.#IND00,-1.#IND00)
+upe1=-1.#IND00,upe2=-1.#IND00
+xp=1.#INF00,yp=-1.#INF00
+upp1=-12.671480,upp2=-12.671480
+upp1p=-1.#IND00,upp2p=-1.#IND00
+(Z1/Z1p)=1.000000,(Z2/Z2p)=1.000000
+(de1+delta_d1)/de1=-1.#IND00,(de1+delta_d1)/de1=-1.#IND00
+delta_d1=-1.#IND00,delta_d2=-1.#IND00
+de1=-1.#IND00,dp1=-1.#IND00
+de2=-1.#IND00,dp2=-1.#IND00
+Z1=1.227000, Z1p=1.227000, Z2=1.227000, Z2p=1.227000
+xpr=-1.#IND00,ypr=-1.#IND00

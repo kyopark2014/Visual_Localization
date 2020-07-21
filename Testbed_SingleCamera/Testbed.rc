@@ -1,0 +1,261 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Testbed.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Testbed.ico"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TESTBED_DIALOG DIALOGEX 0, 0, 620, 447
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Testbed"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "CAMERA1",IDC_SELECTCAMERA1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,24,50,8
+    CONTROL         "CAMERA2",IDC_SELECTCAMERA2,"Button",BS_AUTORADIOBUTTON,
+                    68,24,49,8
+    CONTROL         "STOP",IDC_TRACEC1STOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,23,142,39,8
+    CONTROL         "START",IDC_ISOLATIONC1START,"Button",BS_AUTORADIOBUTTON,
+                    69,142,38,8
+    CONTROL         "STOP",IDC_ISOLATIONC1STOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,23,118,39,8
+    CONTROL         "START",IDC_ISOLATIONC2START,"Button",BS_AUTORADIOBUTTON,
+                    69,118,38,8
+    CONTROL         "STOP",IDC_SAVEC1STOP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,24,90,39,8
+    CONTROL         "START",IDC_SAVEC2START,"Button",BS_AUTORADIOBUTTON,70,
+                    90,38,8
+    PUSHBUTTON      "UP",IDC_MOVEUPC1,52,187,27,16
+    PUSHBUTTON      "DOWN",IDC_MOVEDOWNC1,52,226,27,16
+    PUSHBUTTON      ">",IDC_MOVERIGHTC1,84,205,26,16
+    PUSHBUTTON      "HOME",IDC_MOVEHOMEC1,52,205,27,16
+    PUSHBUTTON      "<",IDC_MOVELEFTC1,22,205,26,16
+    PUSHBUTTON      "-",IDC_ZOOMOUTC1,22,322,26,16
+    PUSHBUTTON      "+",IDC_ZOOMINC1,84,322,26,16
+    LTEXT           "ZOOM",IDC_STATIC,56,325,22,8
+    PUSHBUTTON      "-",IDC_FOCUSOUTC1,22,341,26,16
+    PUSHBUTTON      "+",IDC_FOCUSINC1,84,341,26,16
+    PUSHBUTTON      "-",IDC_IRISOUTC1,22,360,26,16
+    PUSHBUTTON      "+",IDC_IRISINC1,84,360,26,16
+    PUSHBUTTON      "FOCUS",IDC_FOCUSAUTOC1,52,341,28,16
+    PUSHBUTTON      "IRIS",IDC_IRISAUTOC1,53,360,26,16
+    COMBOBOX        IDC_PANSPEEDC1,74,253,35,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Pan Speed",IDC_STATIC,22,256,45,8
+    COMBOBOX        IDC_TILTSPEEDC1,74,267,35,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ZOOMSPEEDC1,74,283,35,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FOCUSSPEEDC1,74,299,35,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Tilt Speed",IDC_STATIC,22,272,46,8
+    LTEXT           "Zoom Speed",IDC_STATIC,22,285,46,8
+    LTEXT           "Focus Speed",IDC_STATIC,22,301,45,8
+    LTEXT           "Save",IDC_STATIC,17,79,45,8
+    LTEXT           "Second/Frame",IDC_STATIC,17,157,53,8
+    COMBOBOX        IDC_SAVEINTERVAL,25,167,38,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "SNAPSHOT",IDC_SNAPSHOT,38,41,56,12
+    GROUPBOX        "CONTROL",IDC_STATIC,12,9,109,374
+    LTEXT           "Isolate Object",IDC_STATIC,16,107,45,8
+    LTEXT           "Trace",IDC_STATIC,16,131,45,8
+    GROUPBOX        "OBJECT",IDC_STATIC,13,389,108,31
+    LTEXT           "",IDC_COORX,27,402,67,11
+    PUSHBUTTON      "CALIBRATION",IDC_CALIBRATION,37,60,56,12
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Testbed MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Testbed\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Testbed.EXE\0"
+            VALUE "ProductName", "Testbed Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TESTBED_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 613
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 440
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TESTBED_DIALOG DLGINIT
+BEGIN
+    IDC_SAVEINTERVAL, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Testbed.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

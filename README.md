@@ -1,4 +1,4 @@
-# Visual_Localization
+# Visual Localization
 
 It shows a simplified object localization algorithm using multiple cameras. This use a parallel projection model which supports both zooming and panning of the imaging devices. The algorithm is based on a virtual viewable plane for creating a relationship between an object position and a reference coordinate. The reference point is obtained from a rough estimate which may be obtained from the preestimation process. The algorithm minimizes localization error through the iterative process with relatively low-computational complexity. In addition, nonlinearity distortion of the digital image devices is compensated during the iterative process. Finally, the performances of several scenarios are evaluated and analyzed in both indoor and outdoor environments.
 
